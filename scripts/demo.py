@@ -64,7 +64,7 @@ async def run_demo():
     # Mock calendar
     calendar_events = create_mock_calendar_events()
     
-    console.print(f"[cyan]📅 Loaded {len(calendar_events)} calendar events[/cyan]\n")
+    console.print(f"[cyan] Loaded {len(calendar_events)} calendar events[/cyan]\n")
     
     # Demo requests
     demo_requests = [
@@ -116,11 +116,11 @@ async def run_demo():
         
         # Show conflicts
         if result.conflicts:
-            console.print(f"\n[yellow]⚠️  Detected {len(result.conflicts)} conflict(s)[/yellow]")
+            console.print(f"\n[yellow] Detected {len(result.conflicts)} conflict(s)[/yellow]")
         
         # Show email draft
         if result.email_draft:
-            console.print("\n[bold]📧 Email Draft:[/bold]")
+            console.print("\n[bold] Email Draft:[/bold]")
             console.print(Panel(
                 result.email_draft,
                 border_style="blue"
@@ -131,7 +131,7 @@ async def run_demo():
         console.print(f"[dim]Agents used: {', '.join(result.agent_history)}[/dim]")
         
     except Exception as e:
-        console.print(f"[bold red]❌ Error: {e}[/bold red]")
+        console.print(f"[bold red] Error: {e}[/bold red]")
     
     console.print("\n[green]Demo complete![/green]")
 
