@@ -439,21 +439,12 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
-## 🙏 Acknowledgments
-
-- **Meta AI** for Llama 3
-- **LangChain Team** for LangGraph
-- **HuggingFace** for TRL and Transformers
-- **Google** for Calendar and Gmail APIs
-
----
-
 ## 📧 Contact
 
 **Sneha Maurya**
-- Email: your.email@example.com
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourusername](https://twitter.com/yourusername)
+- Email: sm5755@columbia.edu.com
+- LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/snehamaurya10/)
+- 
 
 ---
 
